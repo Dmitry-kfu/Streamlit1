@@ -1,1 +1,1 @@
-web: streamlit run streamlitfssp1.py runserver 0.0.0.0:$PORT
+web: sh setup.sh && streamlit run streamlitfssp1.py
